@@ -1,0 +1,17 @@
+spring.datasource.um.url=jdbc:mysql://127.0.0.1:3306/XXX?useUnicode=true&characterEncoding=UTF-8
+spring.datasource.um.username=
+spring.datasource.um.password=
+spring.datasource.um.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.um.filters=stat
+spring.datasource.um.maxActive=20
+spring.datasource.um.initialSize=1
+spring.datasource.um.maxWait=60000
+spring.datasource.um.minIdle=1
+spring.datasource.um.timeBetweenEvictionRunsMillis=60000
+spring.datasource.um.minEvictableIdleTimeMillis=300000
+spring.datasource.um.validationQuery=select'x'
+spring.datasource.um.testWhileIdle=true
+spring.datasource.um.testOnBorrow=false
+spring.datasource.um.testOnReturn=false
+spring.datasource.um.poolPreparedStatements=true
+spring.datasource.um.maxOpenPreparedStatements=20
